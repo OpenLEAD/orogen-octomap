@@ -13,7 +13,7 @@ typekit.opaque_type "/octomap/OcTree", "/octomap/Octomap"
 # library's pkg-config name) and then the header can be used. Following Rock
 # conventions, a common use-case would be:
 #
-# using_library "octomap"
+using_library "octomap"
 # import_types_from "octomap/CustomType.hpp"
 
 # If this project uses data types that are defined in other oroGen projects,
