@@ -6,7 +6,7 @@ name "octomap"
 # header, and this header will be loaded here
 import_types_from "octomapTypes.hpp"
 
-opaque_type '/octomap/OcTreeNode", "/octomap/Octomap"
+typekit.opaque_type "/octomap/OcTree", "/octomap/Octomap"
 
 # Finally, it is pretty common that headers are directly loaded from an external
 # library. In this case, the library must be first used (the name is the
