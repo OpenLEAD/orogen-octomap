@@ -9,7 +9,7 @@
  */
 #include <vector>
 #include <string>
-namespace octomap {
+namespace orogenoctomap {
 
     struct Octomap{
     //Flag to denote a binary (only free/occupied) or full occupancy octree (.bt/.ot file)
