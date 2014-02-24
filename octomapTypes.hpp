@@ -25,11 +25,14 @@ namespace octomap {
    std::vector<int> data;
     };
 
-//    struct OctomapWithPose
-//    {
-//       double pose;
-//       OcTreeNode root;
-//    };
+/*    struct OctomapWithPose
+    {
+	// The pose of the octree with respect to the header frame
+    	geometry_msgs/Pose origin
+
+	// The actual octree msg
+    	Octomap octomap;
+    };*/
 
 
 }

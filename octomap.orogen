@@ -20,6 +20,7 @@ using_library "octomap"
 # these projects should be imported there as well.
 # import_types_from "base"
 
+
 # Declare a new task context (i.e., a component)
 #
 # The corresponding C++ class can be edited in tasks/Task.hpp and
@@ -39,14 +40,14 @@ task_context "Task" do
     # Data can be retrieved using _input.read(value), which returns true if data
     # was available, and false otherwise. _input.connected() returns if this
     # input is connected to an output or not.
-    input_port "input", "/std/string"
+    #input_port "input", "/std/string"
 
     # An output port, i.e. an object to which the component pushes data so that
     # it is transmitted to other components' inputs
     #
     # Data can be written using _output.write(value). _output.connected() returns
     # if this output is connected to an input or not.
-    output_port "output", "int"
+    output_port "octomap", "/octomap/Octomap"
 
     # If you want that component's updateHook() to be executed when the "input"
     # port gets data, uncomment this and comment the 'periodic' line
