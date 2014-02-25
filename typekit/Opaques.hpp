@@ -4,6 +4,7 @@
 #define __OROGEN_GENERATED_octomap_USER_MARSHALLING_HH
 
 #include <octomap/Types.hpp>
+#include <octomap/octomap.h>
 
 namespace orogen_typekits
 {

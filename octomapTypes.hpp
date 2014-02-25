@@ -16,7 +16,7 @@ namespace octomap {
     bool binary;
 
     //Class id of the contained octree
-    std::string id;
+    //std::string id;
 
    // Resolution (in m) of the smallest octree nodes
    double resolution;
