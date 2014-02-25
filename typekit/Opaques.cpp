@@ -10,11 +10,11 @@
      */
 
 
-void orogen_typekits::toIntermediate(::orogenoctomap::Octomap& intermediate, ::octomap::OcTree const& real_type)
+void orogen_typekits::toIntermediate(::octomap::Octomap& intermediate, ::octomap::OcTree const& real_type)
 {
 }
 
-void orogen_typekits::fromIntermediate(::octomap::OcTree& real_type, ::orogenoctomap::Octomap const& intermediate)
+void orogen_typekits::fromIntermediate(::octomap::OcTree& real_type, ::octomap::Octomap const& intermediate)
 {
 }
 

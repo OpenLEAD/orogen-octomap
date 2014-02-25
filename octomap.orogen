@@ -6,7 +6,7 @@ name "octomap"
 # header, and this header will be loaded here
 import_types_from "octomapTypes.hpp"
 
-typekit.opaque_type "/octomap/OcTree", "/orogenoctomap/Octomap"
+typekit.opaque_type "/octomap/OcTree", "/octomap/Octomap"
 
 # Finally, it is pretty common that headers are directly loaded from an external
 # library. In this case, the library must be first used (the name is the
@@ -16,7 +16,7 @@ typekit.opaque_type "/octomap/OcTree", "/orogenoctomap/Octomap"
 using_library "octomap"
 # import_types_from "octomap/CustomType.hpp"
 
-# If this project uses data types that are defined in other oroGen projects,
+# If this project uses data types that are defined in other oroGen project
 # these projects should be imported there as well.
 # import_types_from "base"
 

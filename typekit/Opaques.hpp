@@ -9,9 +9,9 @@ namespace orogen_typekits
 {
     
     /** Converts \c real_type into \c intermediate */
-    void toIntermediate(::orogenoctomap::Octomap& intermediate, ::octomap::OcTree const& real_type);
+    void toIntermediate(::octomap::Octomap& intermediate, ::octomap::OcTree const& real_type);
     /** Converts \c intermediate into \c real_type */
-    void fromIntermediate(::octomap::OcTree& real_type, ::orogenoctomap::Octomap const& intermediate);
+    void fromIntermediate(::octomap::OcTree& real_type, ::octomap::Octomap const& intermediate);
         
     
 }
