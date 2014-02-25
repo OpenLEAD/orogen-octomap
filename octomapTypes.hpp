@@ -22,7 +22,7 @@ namespace octomap {
    double resolution;
 
    //binary serialization of octree, use conversions.h to read and write octrees
-   std::vector<int> data;
+   //std::vector<int> data;
     };
 
 /*    struct OctomapWithPose
