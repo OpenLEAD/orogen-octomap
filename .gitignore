@@ -1,13 +1,8 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+templates/*
+.orogen/*
+*~
+.*.swp
+build/*
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+*autobuild-stamp
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
