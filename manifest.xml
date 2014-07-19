@@ -1,10 +1,11 @@
 <package>
-  <description brief="Octomap Orogen Component">
-  Orogen Component for integration between Rock and the octomap framework
+  <description brief="oroGen project for the integration of octomaps">
+  This project defines the types necessary to exchange octomaps between
+  components, as well as some useful tasks (such as file-to-port reading
+  task)
   </description>
-  <author>Gabriel Alcantara/alcantara@poli.ufrj.br</author>
-  <license></license>
-  <url>http://</url>
-  <logo>http://</logo>
+  <author>Sylvain Joyeux/sylvain.joyeux@m4x.org</author>
+  <license>LGPL v2 or later</license>
   <depend package="slam/octomap" />
+  <depend package="slam/octomap_wrapper" />
 </package>
